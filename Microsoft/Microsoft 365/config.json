@@ -5,12 +5,45 @@
         "Semi-Annual-Enterprise"
     ],
     "Current": {
-        "VersionUri": "https://learn.microsoft.com/en-au/officeupdates/current-channel"
+        "VersionUri": "https://learn.microsoft.com/en-au/officeupdates/current-channel",
+        "Scripts": {
+            "Business": {
+
+            },
+            "Enterprise": {
+                "All": "",
+                "Project": "",
+                "Standard": "",
+                "Visio": ""
+            }
+        }
     },
     "Monthly-Enterprise": {
-        "VersionUri": "https://learn.microsoft.com/en-au/officeupdates/monthly-enterprise-channel"
+        "VersionUri": "https://learn.microsoft.com/en-au/officeupdates/monthly-enterprise-channel",
+        "Scripts": {
+            "Business": {
+
+            },
+            "Enterprise": {
+                "All": "",
+                "Project": "",
+                "Standard": "",
+                "Visio": ""
+            }
+        }
     },
     "Semi-Annual-Enterprise": {
-        "VersionUri": "https://learn.microsoft.com/en-au/officeupdates/semi-annual-enterprise-channel"
+        "VersionUri": "https://learn.microsoft.com/en-au/officeupdates/semi-annual-enterprise-channel",
+        "Scripts": {
+            "Business": {
+
+            },
+            "Enterprise": {
+                "All": "",
+                "Project": "",
+                "Standard": "",
+                "Visio": ""
+            }
+        }
     }
 }
