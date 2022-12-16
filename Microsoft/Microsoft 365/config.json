@@ -1,0 +1,16 @@
+{
+    "Channels": [
+        "Current",
+        "Monthly-Enterprise",
+        "Semi-Annual-Enterprise"
+    ],
+    "Current": {
+        "VersionUri": "https://learn.microsoft.com/en-au/officeupdates/current-channel"
+    },
+    "Monthly-Enterprise": {
+        "VersionUri": "https://learn.microsoft.com/en-au/officeupdates/monthly-enterprise-channel"
+    },
+    "Semi-Annual-Enterprise": {
+        "VersionUri": "https://learn.microsoft.com/en-au/officeupdates/semi-annual-enterprise-channel"
+    }
+}
