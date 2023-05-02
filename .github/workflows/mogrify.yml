@@ -1,0 +1,26 @@
+name: mogrify
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install inkscape
+        run: |
+          sudo apt update
+          sudo apt -y install inkscape
+          which inkscape
+
+      - name: Convert SVG to PNG
+        run: ./run.ps1
+        shell: pwsh
