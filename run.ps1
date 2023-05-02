@@ -30,7 +30,7 @@ if (Test-Path -Path _tmp){ Remove-Item -Path _tmp -Recurse -Confirm:$false -Forc
 
 # convert all missing PNG files (this is from old files not in the source repo)
 $inkscape = $(which inkscape)
-Get-ChildItem -Path ./_tmp -Recurse -File -Filter "*.svg" | ForEach-Object {
+Get-ChildItem -Path . -Recurse -File -Filter "*.svg" | ForEach-Object {
     $old_name = $_.FullName
     $new_name = $_.FullName.Replace(".svg",".png")
     & $inkscape --export-type png --export-filename $new_name -w 1024 $old_name
