@@ -21,6 +21,16 @@ jobs:
           sudo apt -y install inkscape
           which inkscape
 
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.11'
+      
+      - name: Install packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
       - name: Convert SVG to PNG
         run: ./run.ps1
         shell: pwsh

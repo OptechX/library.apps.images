@@ -27,3 +27,10 @@ Get-ChildItem -Path ./_tmp -Recurse -File -Filter "*.png" | ForEach-Object {
 
 # clean up
 if (Test-Path -Path _tmp){ Remove-Item -Path _tmp -Recurse -Confirm:$false -Force }
+
+# run python script
+Get-ChildItem -Path . -Recurse -Filter "*.png" | ForEach-Object {
+    $original = $_.FullName
+    $new = $_.FullName.Replace(".png","_scaled.png")
+    & $(which python) main.py $original $new
+}
