@@ -20,9 +20,9 @@ Get-ChildItem -Path ./_tmp -Recurse -File -Filter "*.svg" | ForEach-Object {
 # move all newly created files
 Get-ChildItem -Path ./_tmp -Recurse -File -Filter "*.png" | ForEach-Object {
     $current_path = $_.FullName.Replace('^.*_tmp','')
-    $new = $current_path -replace "^.*?_tmp/", "./"
+    $new = $current_path -replace "^.*?_tmp/", ""
 
-    Move-Item -Path $current_path -Destination $new -Force -Confirm:$false
+    Move-Item -Path "${current_path}" -Destination "./${new}" -Force -Confirm:$false
 }
 
 # clean up
