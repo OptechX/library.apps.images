@@ -1,0 +1,31 @@
+{
+  "id": 0,
+  "uid": "Adobe::AcrobatReaderDC",
+  "applicationCategory": "PRODUCTIVITY",
+  "publisher": "Adobe",
+  "name": "Acrobat Reader DC",
+  "version": "2023.003.20244",
+  "copyright": "Copyright (c) 1984-2018 Adobe Systems Incorporated and its licensors",
+  "licenseAcceptRequired": true,
+  "lcid": [
+    "EN_US"
+  ],
+  "cpuArch": [
+    "x86"
+  ],
+  "homepage": "https://www.adobe.com/products/reader.html",
+  "icon": "https://github.com/OptechX/library.apps.images/raw/main/Productivity/Adobe/Acrobat%20Reader%20DC/icon.png",
+  "docs": "https://helpx.adobe.com/reader.html",
+  "license": "http://www.adobe.com/products/eulas/pdfs/Reader10_combined-20100625_1419.pdf",
+  "tags": [
+    "adobe",
+    "reader",
+    "acrobat",
+    "dc",
+    "pdf"
+  ],
+  "summary": "View, print, sign, and annotate PDF files",
+  "enabled": true,
+  "lastUpdate": "2023-08-04T15:29:46.3911285+00:00",
+  "bannerIcon": null
+}
