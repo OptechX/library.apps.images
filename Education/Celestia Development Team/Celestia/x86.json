@@ -1,0 +1,34 @@
+{
+  "id": 0,
+  "uid": "CelestiaDevelopmentTeam::Celestia",
+  "applicationCategory": "Education",
+  "publisher": "Celestia Development Team",
+  "name": "Celestia",
+  "version": "1.6.3",
+  "copyright": "Copyright (c) 2001-2021, Celestia Development Team",
+  "licenseAcceptRequired": false,
+  "lcid": [
+    "EN_US"
+  ],
+  "cpuArch": [
+    "x86"
+  ],
+  "homepage": "https://celestia.space",
+  "icon": "https://github.com/OptechX/library.apps.images/raw/main/Education/Celestia%20Development%20Team/Celestia/icon.png",
+  "docs": "https://en.wikibooks.org/wiki/Celestia",
+  "license": "https://raw.githubusercontent.com/CelestiaProject/Celestia/master/README.md",
+  "tags": [
+    "opengl",
+    "space",
+    "celestia",
+    "planetarium",
+    "educational",
+    "open",
+    "source",
+    "open source"
+  ],
+  "summary": "A real-time space simulation that lets you experience our universe in three dimensions.",
+  "enabled": true,
+  "lastUpdate": "2023-08-04T11:54:50.2317301+00:00",
+  "bannerIcon": null
+}
