@@ -1,7 +1,7 @@
 {
   "id": 0,
   "uid": "CelestiaDevelopmentTeam::Celestia",
-  "applicationCategory": "Education",
+  "applicationCategory": "EDUCATION",
   "publisher": "Celestia Development Team",
   "name": "Celestia",
   "version": "1.6.3",
@@ -29,6 +29,6 @@
   ],
   "summary": "A real-time space simulation that lets you experience our universe in three dimensions.",
   "enabled": true,
-  "lastUpdate": "2023-08-04T11:54:50.2317301+00:00",
+  "lastUpdate": "2023-08-04T15:33:59.8468668+00:00",
   "bannerIcon": null
 }
