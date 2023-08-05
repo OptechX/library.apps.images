@@ -13,9 +13,9 @@
   "cpuArch": [
     "x64"
   ],
-  "homepage": "",
+  "homepage": "https://dotnet.microsoft.com",
   "icon": "",
-  "docs": "",
+  "docs": "https://dotnet.microsoft.com",
   "license": "https://opensource.org/license/mit/",
   "tags": [
     ".net",
@@ -35,6 +35,6 @@
   ],
   "summary": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
   "enabled": true,
-  "lastUpdate": "2023-08-05T12:39:43.9765367+00:00",
+  "lastUpdate": "2023-08-05T12:45:25.0115195+00:00",
   "bannerIcon": null
 }
