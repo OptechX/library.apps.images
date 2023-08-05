@@ -1,40 +1,42 @@
 {
   "id": 0,
-  "uid": "Microsoft.DotNet.AspNetCore.6",
+  "uid": "Microsoft.DotNet.HostingBundle.5",
   "applicationCategory": "MICROSOFT",
   "publisher": "Microsoft Corporation",
-  "name": "Microsoft ASP.NET Core Runtime 6.0",
-  "version": "6.0.20",
+  "name": "Microsoft ASP.NET Core Hosting Bundle 5.0",
+  "version": "5.0.17",
   "copyright": "Copyright © Microsoft Corporation 2023",
   "licenseAcceptRequired": false,
   "lcid": [
     "EN_US"
   ],
   "cpuArch": [
-    "x64"
+    "x86"
   ],
   "homepage": "",
   "icon": "",
   "docs": "",
   "license": "https://opensource.org/license/mit/",
   "tags": [
-    ".NET",
-    ".NET Core",
-    "dotnet",
-    "net",
-    "C#",
+    ".net",
+    ".net-core",
+    "asp.net",
+    "asp.net-core",
+    "c#",
     "csharp",
-    "F#",
+    "dotnet",
+    "f#",
     "fsharp",
-    "VB",
-    "Visual Basic",
-    "ASP.NET",
-    "ASP.NET Core",
-    "runtime",
+    "hosting",
+    "hosting-bundle",
+    "iis",
+    "net",
+    "vb",
+    "visual-basic",
     "web"
   ],
   "summary": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
   "enabled": true,
-  "lastUpdate": "2023-08-05T06:30:03.5384475+00:00",
+  "lastUpdate": "2023-08-05T06:30:04.8465175+00:00",
   "bannerIcon": null
 }
