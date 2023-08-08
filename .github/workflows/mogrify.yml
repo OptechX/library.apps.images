@@ -1,10 +1,10 @@
 name: mogrify
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  # push:
+  #   branches: [ "main" ]
+  # pull_request:
+  #   branches: [ "main" ]
 
   workflow_dispatch:
 
@@ -19,7 +19,6 @@ jobs:
         run: |
           sudo apt update
           sudo apt -y install inkscape
-          which inkscape
 
       - name: Setup Python 3.11
         uses: actions/setup-python@v3
@@ -37,8 +36,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --global user.email "you@example.com"
-          git config --global user.name "Your Name"
+          git config --global user.email "danijel@repasscloud.com"
+          git config --global user.name "RePass Cloud Pty Ltd"
           git add .
           git commit -m "Added new file"
       
