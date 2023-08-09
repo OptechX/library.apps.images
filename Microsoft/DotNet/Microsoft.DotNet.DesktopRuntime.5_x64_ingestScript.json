@@ -14,7 +14,7 @@
     "x64"
   ],
   "homepage": "https://dotnet.microsoft.com",
-  "icon": "https://github.com/OptechX/library.apps.images/raw/main/DEFAULT/icon.png",
+  "icon": "",
   "docs": "https://dotnet.microsoft.com",
   "license": "https://opensource.org/license/mit/",
   "tags": [
@@ -34,6 +34,6 @@
   ],
   "summary": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
   "enabled": true,
-  "lastUpdate": "2023-08-08T11:28:28.5183463+00:00",
+  "lastUpdate": "2023-08-09T02:09:31.8538331+00:00",
   "bannerIcon": null
 }
