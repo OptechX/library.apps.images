@@ -1,0 +1,39 @@
+{
+  "id": 0,
+  "uid": "Microsoft.DotNet.DesktopRuntime.7",
+  "applicationCategory": "MICROSOFT",
+  "publisher": "Microsoft Corporation",
+  "name": "Microsoft .NET Windows Desktop Runtime 7.0",
+  "version": "7.0.10",
+  "copyright": "Copyright © Microsoft Corporation 2023",
+  "licenseAcceptRequired": false,
+  "lcid": [
+    "EN_US"
+  ],
+  "cpuArch": [
+    "x64"
+  ],
+  "homepage": "https://dotnet.microsoft.com",
+  "icon": "",
+  "docs": "https://dotnet.microsoft.com",
+  "license": "https://opensource.org/license/mit/",
+  "tags": [
+    ".NET",
+    ".NET Core",
+    "dotnet",
+    "net",
+    "C#",
+    "csharp",
+    "F#",
+    "fsharp",
+    "VB",
+    "Visual Basic",
+    "Windows Desktop",
+    "Windows",
+    "runtime"
+  ],
+  "summary": ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
+  "enabled": true,
+  "lastUpdate": "2023-08-14T01:57:16.8666529+00:00",
+  "bannerIcon": null
+}
