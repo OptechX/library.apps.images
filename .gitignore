@@ -1,3 +1,5 @@
 .DS_Store
 *_x86_ingestScript.json
 *_x64_ingestScript.json
+*x64.json
+*x86.json
