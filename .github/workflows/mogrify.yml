@@ -31,7 +31,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: Convert SVG to PNG
-        run: ./run.ps1
+        run: |
+          Rename-Item ./run.ps2 ./run.ps1
+          ./run.ps1
         shell: pwsh
 
       - name: Commit changes
