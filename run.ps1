@@ -37,11 +37,11 @@ Get-ChildItem -Path . -Recurse -File -Filter "*.svg" | ForEach-Object {
 }
 
 # run python script
-Get-ChildItem -Path . -Recurse -Filter "*.png" | ForEach-Object {
-    $original = $_.FullName
-    $new = $_.FullName.Replace(".png","_scaled.png")
-    & $(which python) main.py $original $new
-}
+# Get-ChildItem -Path . -Recurse -Filter "*.png" | ForEach-Object {
+#     $original = $_.FullName
+#     $new = $_.FullName.Replace(".png","_scaled.png")
+#     & $(which python) main.py $original $new
+# }
 
 # clean up my last mistake
-Get-ChildItem -Path . -Recurse -Filter "*_scaled_scaled*" | ForEach-Object { Remove-Item -Path $_.FullName -Force -Confirm:$false }
+Get-ChildItem -Path . -Recurse -Filter "*_scaled*" | ForEach-Object { Remove-Item -Path $_.FullName -Force -Confirm:$false }
